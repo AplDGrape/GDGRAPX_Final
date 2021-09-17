@@ -16,7 +16,7 @@ GLuint MultiplediffuseTexLoc;
 GLuint MultiplenightTexLoc;
 
 void LoadDataForMultipleTexture() {
-	MultipleshaderProgram = LoadShaders("Shader/Phong_vertex.shader", "Shader/night_fragment.shader");
+	MultipleshaderProgram = LoadShaders("Shader/vertex.shader", "Shader/fragment.shader");
 
 	glUseProgram(MultipleshaderProgram);
 	colorLoc = glGetUniformLocation(MultipleshaderProgram, "uniformColor");

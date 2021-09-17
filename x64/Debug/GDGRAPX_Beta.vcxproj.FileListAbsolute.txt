@@ -1,0 +1,2 @@
+D:\GitHub\GDGRAPX_Final2\x64\Debug\glew32.dll
+D:\GitHub\GDGRAPX_Final2\x64\Debug\GDGRAPX_Beta.exe

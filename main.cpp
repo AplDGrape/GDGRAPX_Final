@@ -2,7 +2,9 @@
 
 #include "skybox.h"
 #include "LibertyStatue.h"
-#include "FlatSurface.h"
+#include "Taxi.h"
+#include "Tree.h"
+//#include "FlatSurface.h"
 
 #include "LoadNormalShader.h"
 #include "LoadMultipleShader.h"
@@ -137,6 +139,8 @@ int main() {
 #pragma region Mesh Loading
 
 	InitializeLibertyStatue();
+	InitializeTaxi();
+	InitializeTree();
 
 	std::vector<std::string> faces{
 		"right.png",
@@ -152,7 +156,7 @@ int main() {
 #pragma region Shader Loading
 
 	//Load Skybox
-	GLuint skyboxShaderProgram = LoadShaders("Shader/skybox_vertex.shader", "Shader/skybox_fragment.shader");
+	GLuint skyboxShaderProgram = LoadShaders("Shader/vertex.shader", "Shader/fragment.shader");
 
 	LoadData();
 	//LoadDataForMultipleTexture();
@@ -320,7 +324,10 @@ int main() {
 		//unbindtexture after rendering
 		glBindTexture(GL_TEXTURE_2D, 0);
 		*/
-		DrawLibertyStatue();
+		//DrawLibertyStatue();
+		BindTaxiArray();
+		DrawTaxi();
+		//DrawTree();
 
 		//BindFlatSurfaceArray();
 		//DrawFlatSurface();

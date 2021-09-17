@@ -122,6 +122,12 @@
     <ClInclude Include="FlatSurface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Taxi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\APOLINAR_Francis_GRAPHIX\Assets\skybox\top.png">
@@ -187,16 +193,5 @@
     <Image Include="Assets\Road\rua_com_faixada_normal.png">
       <Filter>Assets\Road</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="Assets\backpack\backpack.obj">
-      <Filter>Assets\backpack</Filter>
-    </Object>
-    <Object Include="Assets\Liberty\LibertStatue.obj">
-      <Filter>Assets\Liberty</Filter>
-    </Object>
-    <Object Include="Assets\Road\untitled.obj">
-      <Filter>Assets\Road</Filter>
-    </Object>
   </ItemGroup>
 </Project>
