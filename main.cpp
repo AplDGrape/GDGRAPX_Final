@@ -95,7 +95,6 @@ void processInput(GLFWwindow* window) {
 	}
 }
 
-
 int main() {
 	stbi_set_flip_vertically_on_load(true);
 
@@ -324,9 +323,9 @@ int main() {
 		//unbindtexture after rendering
 		glBindTexture(GL_TEXTURE_2D, 0);
 		*/
-		//DrawLibertyStatue();
-		BindTaxiArray();
-		DrawTaxi();
+		DrawLibertyStatue();
+		//BindTaxiArray();
+		//DrawTaxi();
 		//DrawTree();
 
 		//BindFlatSurfaceArray();

@@ -6,13 +6,13 @@ D:\GitHub\GDGRAPX_Final2\obj_mesh.h(212,36): warning C4267: 'argument': conversi
               _Ty=unsigned int
           ]
 D:\GitHub\GDGRAPX_Final2\obj_mesh.h(216,36): warning C4267: '=': conversion from 'size_t' to 'GLulong', possible loss of data
-D:\GitHub\GDGRAPX_Final2\main.cpp(189,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\GitHub\GDGRAPX_Final2\main.cpp(220,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\GitHub\GDGRAPX_Final2\main.cpp(232,24): warning C4244: 'initializing': conversion from 'float' to 'GLsizei', possible loss of data
+D:\GitHub\GDGRAPX_Final2\main.cpp(188,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GDGRAPX_Final2\main.cpp(219,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GDGRAPX_Final2\main.cpp(231,24): warning C4244: 'initializing': conversion from 'float' to 'GLsizei', possible loss of data
+D:\GitHub\GDGRAPX_Final2\main.cpp(346,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 D:\GitHub\GDGRAPX_Final2\main.cpp(347,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\GitHub\GDGRAPX_Final2\main.cpp(348,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GDGRAPX_Final2\main.cpp(351,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\GitHub\GDGRAPX_Final2\main.cpp(352,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\GitHub\GDGRAPX_Final2\main.cpp(353,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GDGRAPX_Final2\main.cpp(353,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 D:\GitHub\GDGRAPX_Final2\main.cpp(354,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\GitHub\GDGRAPX_Final2\main.cpp(355,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   GDGRAPX_Beta.vcxproj -> D:\GitHub\GDGRAPX_Final2\x64\Debug\GDGRAPX_Beta.exe
